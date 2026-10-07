@@ -2,7 +2,7 @@ name: CAAC Law Check
 
 on:
   schedule:
-    - cron: '0 1 * * *'   # 每天北京时间 03:02
+    - cron: '0 1 * * *'   # 每天北京时间 03:05
   workflow_dispatch:
 
 jobs:
