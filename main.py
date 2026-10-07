@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import os
 
-URL = "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/"
+URL = "https://www.caac.gov.cn/XXGK/XXGK/index_172.html?fl=12/"
 KEYWORDS = ["规定", "办法", "规则", "规范性文件", "民航规", "交通运输部令"]
 
 def fetch_items():
